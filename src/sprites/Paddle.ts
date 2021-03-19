@@ -52,9 +52,9 @@ export class Paddle {
     return this.paddleImage;
   }
   get isMovingLeft(): boolean {
-    return this.isMovingLeft;
+    return this.moveLeft;
   }
   get isMovingRight(): boolean {
-    return this.isMovingRight;
+    return this.moveRight;
   }
 }
